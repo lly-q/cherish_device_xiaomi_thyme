@@ -58,4 +58,7 @@
 
     <!-- Define battery charge cycle node -->
     <string name="config_battery_charge_cycle">/sys/class/power_supply/bms/cycle_count</string>
+
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 </resources>
