@@ -157,7 +157,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 BOARD_USES_QCOM_HARDWARE := true
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
