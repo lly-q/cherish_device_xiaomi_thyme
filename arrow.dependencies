@@ -4,10 +4,6 @@
     "target_path": "kernel/xiaomi/thyme"
   },
   {
-    "repository": "android_vendor_xiaomi_vayu",
-    "target_path": "vendor/xiaomi/vayu"
-  },
-  {
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi"
   }
