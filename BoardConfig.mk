@@ -5,7 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/thyme
-THYME_PREBUILT := device/xiaomi/thyme-prebuilt
 
 # A/B
 AB_OTA_UPDATER := true
@@ -30,7 +29,7 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := cortex-a76
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-a
+TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
